@@ -1,0 +1,246 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Roboto',sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* -------------------------------------- */
+
+#container1{
+    background-color: #1F2937;
+    min-height: 50vh;
+}
+
+#navBar{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+}
+
+li{
+    display: inline;
+    margin: 0 5px;
+}
+
+#brand{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#pages,#heroPara{
+    color: #E5E7Eb;
+    font-size: 18px;
+}
+
+#pages a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
+}
+
+#pages a:hover{
+    color: #3882F6;
+}
+
+#heroTitle{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+#heroContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+#heroBtn{
+    border: 1px solid #3882F6;
+    border-radius: 0.5em;
+    background-color: #3882F6;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    max-width: 80px;
+    text-align: center;
+    opacity: 90%;
+    transition: all 0.1s ease-in-out;
+}
+
+#heroBtn:hover{
+    opacity: 100%;
+}
+
+#left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 40vw;
+}
+
+
+#heroPara,#heroBtn{
+    margin-bottom: 15px;
+    margin-top: 1px;
+}
+
+#right{
+   display: flex;
+   flex-direction: column;
+   justify-content: center; 
+}
+
+#random{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+#container2{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+#container2 div{
+    width: 150px;
+    height: 150px;
+    border-radius: 1em;
+    border: 2px solid #3882F6;
+    background-color: white;
+    margin: 2em 1em;
+}
+
+#container3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+#container3 p{
+    width: 170px;
+    margin: 0 0.3em;
+}
+
+#container4{
+    background-color: #E5E7Eb;
+    height: 30vh;
+    padding: 5em;
+}
+
+#container4 p{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    max-width: 20em;
+    margin: auto;
+    color: #1F2937;
+}
+
+#container4 span{
+    margin-left: 800px;
+    font-weight: bold;
+}
+
+#container5{
+    margin: 5em 0;
+}
+
+#container5 div{
+    background-color: #3882F6;
+    height: 7em;
+    width: 50em;
+    padding: 1px 5px 0px 5px;
+    margin: auto;
+    border-radius: 0.5em;
+}
+
+#container5 div a{
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 0.5em;
+    padding: 0.1em 1.8em;
+    color: white;
+    margin-left: 5em;
+    transition: all 0.1s ease-in-out;
+}
+
+#container5 div a:hover{
+    background-color: white;
+    color: #3882F6;
+}
+
+#container5 div h3{
+    font-size: 20px;
+    color: white;
+    margin: 1em 0 0 3em;
+    font-weight: bold;
+}
+
+#container5 div p{
+    font-size: 15px;
+    display: inline;
+    color: wheat;
+    margin: 1em 0 0 4em;
+}
+
+#container5 div h3,p,a{
+    margin-top: 1.5em;
+}
+
+footer{
+    text-align: center;
+    background-color: #1F2937;
+    min-height: 5vh;
+    padding-top: 2em;
+}
+
+footer h3{
+    color: white;
+}
